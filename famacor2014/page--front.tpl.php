@@ -14,10 +14,10 @@
 	  <div class="collapse navbar-collapse navbar-ex1-collapse">		
        <div class="menu-secoes">
        <ul id="menu-principal" class="nav navbar-nav">          
-          <li><a href="http://ecwd.net/famacor/blog">Blog</a></li>
-          <li><a href="#">Auto Clube</a></li> 
-          <li><a href="#">Sinistros</a></li> 
-          <li><a href="#">Contato</a></li>          
+          <li><a href="<?php print $front_page; ?>blog">Blog</a></li>
+          <li><a href="<?php print $front_page; ?>auto-clube">Auto Clube</a></li> 
+          <li><a href="<?php print $front_page; ?>sinistros">Sinistros</a></li> 
+          <li><a href="<?php print $front_page; ?>contato">Contato</a></li>          
         </ul>  
       </div>
 	 </div><!-- /.navbar-collapse --> 
@@ -294,12 +294,12 @@
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="<?php echo $directory; ?>/js/bootstrap.js" type="text/javascript"></script>
+<script src="<?php print base_path() . path_to_theme() .'/' ?>/js/bootstrap.js" type="text/javascript"></script>
 
 <script type="text/javascript" src="<?php echo $directory; ?>/js/jquery.nicescroll.min.js"></script>
-<script src="<?php echo $directory; ?>/js/jquery.parallax-1.1.3.js" type="text/javascript" ></script>
-<script src="<?php echo $directory; ?>/js/jquery.localscroll-1.2.7-min.js" type="text/javascript" ></script>
-<script src="<?php echo $directory; ?>/js/jquery.scrollTo-1.4.6-min.js" type="text/javascript" ></script>
+<script src="<?php print base_path() . path_to_theme() .'/' ?>/js/jquery.parallax-1.1.3.js" type="text/javascript" ></script>
+<script src="<?php print base_path() . path_to_theme() .'/' ?>/js/jquery.localscroll-1.2.7-min.js" type="text/javascript" ></script>
+<script src="<?php print base_path() . path_to_theme() .'/' ?>/js/jquery.scrollTo-1.4.6-min.js" type="text/javascript" ></script>
 
 <script src="<?php echo $directory; ?>/js/geral.js" type="text/javascript"></script>
 

@@ -9,13 +9,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <?php print $styles; ?>
 <?php print $scripts; ?>
-<link href="<?php echo $directory; ?>/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="<?php print base_path() . path_to_theme() .'/' ?>/css/bootstrap-theme.min.css" rel="stylesheet">
 
-<link href="<?php echo $directory; ?>/css/bootstrap.min.css" rel="stylesheet">
+<link href="<?php print base_path() . path_to_theme() .'/' ?>/css/bootstrap.min.css" rel="stylesheet">
 
 <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
 
-<link href="<?php echo $directory; ?>/css/home.css" rel="stylesheet">
+<link href="<?php print base_path() . path_to_theme() .'/' ?>/css/home.css" rel="stylesheet">
 
 <!--[if lt IE 7]>
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome-ie7.min.css" rel="stylesheet">
