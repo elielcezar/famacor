@@ -64,7 +64,8 @@
 <section id="Section-1">
 	<div class="container">    
     
-	<div class="line">
+	<div class="wrapper">
+      <div class="line"> </div>
       <div class="row fundacao">
            <div class="col-sm-5 conteudo">          
               <p>Em 2004 Mauro Iplinski e seus filhos fundaram a Famacor Corretora de Seguros.</p>          
@@ -157,18 +158,18 @@
           <img src="<?php echo $directory; ?>/img/pesquisa.png" />          
         </div>
        <div class="col-md-6 col-lg-6">
-          <ul class="seguros">
-            <li class="automovel">Trabalhamos com as maiores seguradoras do mundo. </li>
-            <li class="motocicleta">Assim garantimos as melhores taxas para nossos clientes.</li>
-            <li class="residencial">Devido as diversas parcerias também temos soluções em consórcios e financiamentos.</li>            
+          <ul class="pesquisa">
+            <li class="seguradoras">Trabalhamos com as maiores seguradoras do mundo. </li>
+            <li class="taxas">Assim garantimos as melhores taxas para nossos clientes.</li>
+            <li class="parcerias">Devido as diversas parcerias também temos soluções em consórcios e financiamentos.</li>            
           </ul>
        </div>       
       </div>
 	</div><!-- / CONTAINER-->
 </section> 
- <!-- / SECTION-2 -->
+ <!-- / SECTION-3 -->
 
- <!-- SECTION-3 -->
+ <!-- SECTION-4 -->
 <section id="Section-4">
   <div class="container">
 
@@ -185,10 +186,10 @@
           <img src="<?php echo $directory; ?>/img/sede.png" />          
         </div>
        <div class="col-md-6 col-lg-6">
-          <ul class="seguros">
-            <li class="automovel">Nossa estrutura é funcional e ágil. <br /> Todos os documentos são digitalizados.</li>
-            <li class="motocicleta">Investimos constantemente em Softwares <br /> para ganhar tempo e produtividade.</li>
-            <li class="residencial">Somos pioneiros na adesão ao <br /> Código de Ética dos Corretores de Seguros.</li>            
+          <ul class="sede">
+            <li class="documentos">Nossa estrutura é funcional e ágil. <br /> Todos os documentos são digitalizados.</li>
+            <li class="softwares">Investimos constantemente em Softwares <br /> para ganhar tempo e produtividade.</li>
+            <li class="etica">Somos pioneiros na adesão ao <br /> Código de Ética dos Corretores de Seguros.</li>            
           </ul>
        </div>       
       </div>
@@ -216,12 +217,12 @@
         </div>
        <div class="col-sm-7">          
           <ul class="seguros">
-            <li class="automovel">Não temos “balcão de vendas” como bancos e concessionárias. Nosso compromisso é com nossos clientes.</li>
-            <li class="motocicleta">99% dos negócios novos são oriundos de indicações dos nossos clientes. Nossa propaganda é de “boca em boca”.</li>
-            <li class="residencial">Nosso Programa de Fidelidade consiste em recompensar com desconto extra estes clientes.</li>            
-            <li class="residencial">Auto Clube Famacor - Benefícios para você!</li>            
-            <li class="automovel">Todas as apólices são enviadas para a Famacor. Após minuciosa conferência entregamos para os nossos clientes em um Kit exclusivo.</li>
-            <li class="motocicleta">Todos nossos clientes recebem junto com a carteirinha da seguradora o Guia Rápido Famacor de procedimentos em caso de sinistro e assistência 24h. </li>
+            <li class="balcao">Não temos “balcão de vendas” como bancos e concessionárias. Nosso compromisso é com nossos clientes.</li>
+            <li class="indicacao">99% dos negócios novos são oriundos de indicações dos nossos clientes. Nossa propaganda é de “boca em boca”.</li>
+            <li class="fidelidade">Nosso Programa de Fidelidade consiste em recompensar com desconto extra estes clientes.</li>            
+            <li class="autoclube">Auto Clube Famacor - Benefícios para você!</li>            
+            <li class="apolices">Todas as apólices são enviadas para a Famacor. Após minuciosa conferência entregamos para os nossos clientes em um Kit exclusivo.</li>
+            <li class="carteirinha">Todos nossos clientes recebem junto com a carteirinha da seguradora o Guia Rápido Famacor de procedimentos em caso de sinistro e assistência 24h. </li>
           </ul>
         </div>       
       </div>
@@ -263,14 +264,17 @@
  
       
 <!-- FOOTER -->
-    <footer id="foot-sec">
+    <footer>
 	
   
 		<div class="container">	
 
        <div class="row">
        <div class="col-md-6 col-lg-6">
-          <img src="<?php echo $directory; ?>/img/formulario.png" class="img-responsive" />          
+          <?php
+             $block = module_invoke('webform', 'block_view', 'client-block-29');
+             print render($block['content']);
+          ?>
         </div>
        <div class="col-md-6 col-lg-6">          
             <p>Atendemos nossos clientes 24 horas por dia, 7 dias na semana. </p>
@@ -303,8 +307,6 @@
 
 <script src="<?php echo $directory; ?>/js/geral.js" type="text/javascript"></script>
 
-<script src="<?php print base_path() . path_to_theme() .'/' ?>/js/jquery.inview.js"></script>
-
 <script>
 jQuery(document).ready(function(){
 	jQuery('#topnav').localScroll({offset: {top:0}});
@@ -315,9 +317,12 @@ jQuery(document).ready(function(){
 	//xPosition - Horizontal position of the element
 	//inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
 	//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
-	//jQuery('#section-1').parallax("50%", 0.1);
-	//jQuery('#section-2').parallax("50%", 0.1);
-	//jQuery('#section-3').parallax("50%", 0.1);
+	jQuery('#Section-1').parallax("90%", 1);
+	jQuery('#Section-2').parallax("1%", 1);
+	jQuery('#Section-3').parallax("90%", 1);
+  jQuery('#Section-4').parallax("1%", 1);
+  jQuery('#Section-5').parallax("200%", 1);
+  jQuery('#Section-6').parallax("1%", 1);
 
 })
 </script>
@@ -339,6 +344,8 @@ jQuery('.navbar .nav > li > a').click(function(){
 		});
 </script>
 
+
+<script src="<?php print base_path() . path_to_theme() .'/' ?>/js/jquery.inview.js"></script>
  <!--[if !IE]><!-->
 <script src="<?php print base_path() . path_to_theme() .'/' ?>/js/custom_inview.js"></script>
 <!--<![endif]--> 
