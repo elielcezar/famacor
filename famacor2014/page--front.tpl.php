@@ -303,6 +303,8 @@
 
 <script src="<?php echo $directory; ?>/js/geral.js" type="text/javascript"></script>
 
+<script src="<?php print base_path() . path_to_theme() .'/' ?>/js/jquery.inview.js"></script>
+
 <script>
 jQuery(document).ready(function(){
 	jQuery('#topnav').localScroll({offset: {top:0}});
@@ -336,3 +338,7 @@ jQuery('.navbar .nav > li > a').click(function(){
 
 		});
 </script>
+
+ <!--[if !IE]><!-->
+<script src="<?php print base_path() . path_to_theme() .'/' ?>/js/custom_inview.js"></script>
+<!--<![endif]--> 

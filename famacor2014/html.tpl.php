@@ -17,6 +17,8 @@
 
 <link href="<?php print base_path() . path_to_theme() .'/' ?>/css/home.css" rel="stylesheet">
 
+<link href="<?php print base_path() . path_to_theme() .'/' ?>/css/animate.css" rel="stylesheet">
+
 <!--[if lt IE 7]>
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome-ie7.min.css" rel="stylesheet">
 	<![endif]-->
