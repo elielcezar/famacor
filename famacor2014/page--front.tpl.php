@@ -35,6 +35,9 @@
 
 	</div>	
 </nav>
+
+
+
 <!-- HEADER --> 
  <section id="topo">  
      
@@ -277,6 +280,7 @@
           ?>
         </div>
        <div class="col-md-6 col-lg-6">          
+          <h2>Atendimento</h2>
             <p>Atendemos nossos clientes 24 horas por dia, 7 dias na semana. </p>
             <p>(41) 3362.1020 | 9135.7995</p>
             <p>contato@famacorseguros.com.br </p>                        
@@ -287,6 +291,9 @@
 			
 		</div>
     </footer>
+
+
+
 <!-- / FOOTER -->
 
     <!-- Le javascript
@@ -299,11 +306,12 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="<?php print base_path() . path_to_theme() .'/' ?>/js/bootstrap.js" type="text/javascript"></script>
-
-<script type="text/javascript" src="<?php echo $directory; ?>/js/jquery.nicescroll.min.js"></script>
+<script src="<?php print base_path() . path_to_theme() .'/' ?>/js/jquery.nicescroll.min.js" type="text/javascript" ></script>
 <script src="<?php print base_path() . path_to_theme() .'/' ?>/js/jquery.parallax-1.1.3.js" type="text/javascript" ></script>
 <script src="<?php print base_path() . path_to_theme() .'/' ?>/js/jquery.localscroll-1.2.7-min.js" type="text/javascript" ></script>
 <script src="<?php print base_path() . path_to_theme() .'/' ?>/js/jquery.scrollTo-1.4.6-min.js" type="text/javascript" ></script>
+
+  
 
 <script src="<?php echo $directory; ?>/js/geral.js" type="text/javascript"></script>
 
@@ -312,7 +320,7 @@ jQuery(document).ready(function(){
 	jQuery('#topnav').localScroll({offset: {top:0}});
 
   jQuery('.seta').localScroll({offset: {top:0}});
-	
+
 	//.parallax(xPosition, speedFactor, outerHeight) options:
 	//xPosition - Horizontal position of the element
 	//inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
@@ -323,6 +331,7 @@ jQuery(document).ready(function(){
   jQuery('#Section-4').parallax("1%", 1);
   jQuery('#Section-5').parallax("200%", 1);
   jQuery('#Section-6').parallax("1%", 1);
+
 
 })
 </script>

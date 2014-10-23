@@ -246,9 +246,9 @@ if(janela > 767){
 
       $('#Section-4 img').bind('inview', function (event, isInView) {
             if (isInView) {        
-              $(this).addClass('animated bounceIn').css('opacity','1');   
+              $(this).addClass('animated fadeInUp').css('opacity','1');   
             } else{
-              $(this).removeClass('animated bounceIn').css('opacity','0');   
+              $(this).removeClass('animated fadeInUp').css('opacity','0');   
             }
         }); 
        

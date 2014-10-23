@@ -19,6 +19,7 @@
 
 <link href="<?php print base_path() . path_to_theme() .'/' ?>/css/animate.css" rel="stylesheet">
 
+
 <!--[if lt IE 7]>
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome-ie7.min.css" rel="stylesheet">
 	<![endif]-->
@@ -34,6 +35,9 @@
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,800,600,700,300' rel='stylesheet' type='text/css'>
 <!-- /GOOGLE FONT-->
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+
+
 </head>
 <body data-spy="scroll" data-target=".navbar" class="<?php print $classes; ?>" <?php print $attributes;?>>
 <?php print $page_top; ?>
