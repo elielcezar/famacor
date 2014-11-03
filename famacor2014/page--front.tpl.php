@@ -40,14 +40,12 @@
 
 <!-- HEADER --> 
  <section id="topo">  
+
+    <div class="logo">        
+         <img src="<?php echo $directory; ?>/img/famacor.jpg" class="img-responsive" />                 
+      </div>   
      
 		<div class="container">
-			
-      <div class="row logo">
-				<div class="text-center col-sm-12 col-lg-12">					
-         <img src="<?php echo $directory; ?>/img/famacor.png" class="img-responsive" />         
-				</div>
-			</div>      
 
       <div class="row seta">
         <div class="text-center col-sm-12 col-lg-12">                  
@@ -71,7 +69,7 @@
       <div class="line"> </div>
       <div class="row fundacao">
            <div class="col-sm-5 conteudo">          
-              <p>Em 2004 Mauro Iplinski e seus filhos fundaram a Famacor Corretora de Seguros.</p>          
+              <p>Em 2004 Mauro Iplinski e seus filhos <br/> fundaram a Famacor Corretora de Seguros.</p>          
             </div>
             <div class="col-sm-2 circulo">          
               <img src="<?php echo $directory; ?>/img/circulo-estrela.png" class="img-responsive" />
@@ -93,7 +91,7 @@
       </div>
       <div class="row qualificacao">
             <div class="col-sm-5 conteudo">          
-              <p>A equipe da Famacor esta em permanente processo de qualificação.</p>
+              <p>A equipe da Famacor está em <br/> permanente processo de qualificação.</p>
             </div>
             <div class="col-sm-2 circulo">          
               <img src="<?php echo $directory; ?>/img/circulo-qualificacao.png" class="img-responsive" />
@@ -158,14 +156,12 @@
       <!-- Example row of columns -->
       <div class="row">
        <div class="col-md-6 col-lg-6">
-          <img src="<?php echo $directory; ?>/img/pesquisa.png" />          
+          <img src="<?php echo $directory; ?>/img/pesquisa.png" class="img-pesquisa" />          
         </div>
        <div class="col-md-6 col-lg-6">
-          <ul class="pesquisa">
-            <li class="seguradoras">Trabalhamos com as maiores seguradoras do mundo. </li>
-            <li class="taxas">Assim garantimos as melhores taxas para nossos clientes.</li>
-            <li class="parcerias">Devido as diversas parcerias também temos soluções em consórcios e financiamentos.</li>            
-          </ul>
+         <img src="<?php echo $directory; ?>/img/postit001.png" class="postit p001" />
+         <img src="<?php echo $directory; ?>/img/postit002.png" class="postit p002" />
+         <img src="<?php echo $directory; ?>/img/postit003.png" class="postit p003" />
        </div>       
       </div>
 	</div><!-- / CONTAINER-->
@@ -186,14 +182,12 @@
       
     <div class="row">
        <div class="col-md-6 col-lg-6">
-          <img src="<?php echo $directory; ?>/img/sede.png" />          
+          <img src="<?php echo $directory; ?>/img/sede.png" class="img-sede" />          
         </div>
        <div class="col-md-6 col-lg-6">
-          <ul class="sede">
-            <li class="documentos">Nossa estrutura é funcional e ágil. <br /> Todos os documentos são digitalizados.</li>
-            <li class="softwares">Investimos constantemente em Softwares <br /> para ganhar tempo e produtividade.</li>
-            <li class="etica">Somos pioneiros na adesão ao <br /> Código de Ética dos Corretores de Seguros.</li>            
-          </ul>
+          <img src="<?php echo $directory; ?>/img/postit004.png" class="postit p004" />
+         <img src="<?php echo $directory; ?>/img/postit005.png" class="postit p005" />
+         <img src="<?php echo $directory; ?>/img/postit006.png" class="postit p006" />
        </div>       
       </div>
     
@@ -216,7 +210,7 @@
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-sm-5">
-          <img src="<?php echo $directory; ?>/img/clientes.png" />          
+          <img src="<?php echo $directory; ?>/img/clientes.png" class="img-clientes" />          
         </div>
        <div class="col-sm-7">          
           <ul class="seguros">
@@ -227,6 +221,10 @@
             <li class="apolices">Todas as apólices são enviadas para a Famacor. Após minuciosa conferência entregamos para os nossos clientes em um Kit exclusivo.</li>
             <li class="carteirinha">Todos nossos clientes recebem junto com a carteirinha da seguradora o Guia Rápido Famacor de procedimentos em caso de sinistro e assistência 24h. </li>
           </ul>
+
+          <img src="<?php echo $directory; ?>/img/postit007.png" class="postit p007" />
+         <img src="<?php echo $directory; ?>/img/postit008.png" class="postit p008" />
+         <a href="http://ecwd.net/famacor/auto-clube"><img src="<?php echo $directory; ?>/img/postit009.png" class="postit p009" /></a>
         </div>       
       </div>
 
@@ -249,13 +247,12 @@
       <!-- Example row of columns -->
       <div class="row">
        <div class="col-xs-12 col-sm-6">            
-              <h4>ABA</h4>
-              <p>Por iniciativa dos colaboradores da Allianz Seguros, a ABA nasceu em 1994, com o objetivo de proporcionar a crianças e adolescentes em condições de baixa renda a oportunidade de crescimento pessoal e social por meio de atividades educativas.</p>
+            <img src="<?php echo $directory; ?>/img/postit010.png" class="postit p010" /><br /><br /><br /><br />
+            <img src="<?php echo $directory; ?>/img/aba.jpg" class="selo aba" />                       
           </div>
           <div class="col-xs-12 col-sm-6">            
-              <h4>Seleção Gols pela Vida</h4>
-              <p>O Instituto de Pesquisa Pelé Pequeno Príncipe é a unidade de pesquisa científica do Complexo Pequeno Príncipe, do qual também fazem parte o Hospital Pequeno Príncipe e as Faculdades Pequeno Príncipe.</p>
-              <p>Criado em 2005, conta com 15 pesquisadores que desenvolvem atualmente 50 trabalhos científicos voltados a aumentar a cura de doenças complexas de crianças e adolescentes.</p>
+              <img src="<?php echo $directory; ?>/img/postit011.png" class="postit p011" /><br /><br />
+            <img src="<?php echo $directory; ?>/img/pequeno-principe.jpg" class="selo principe" />                       
           </div>
             <ul>
 
@@ -273,19 +270,18 @@
 		<div class="container">	
 
        <div class="row">
-       <div class="col-md-6 col-lg-6">
+       <div class="col-md-4 col-lg-4 form-contato">
           <?php
              $block = module_invoke('webform', 'block_view', 'client-block-29');
              print render($block['content']);
           ?>
         </div>
-       <div class="col-md-6 col-lg-6">          
-          <h2>Atendimento</h2>
-            <p>Atendemos nossos clientes 24 horas por dia, 7 dias na semana. </p>
-            <p>(41) 3362.1020 | 9135.7995</p>
-            <p>contato@famacorseguros.com.br </p>                        
-          </ul>
+       <div class="col-md-4 col-lg-4 postit">          
+           <img src="<?php echo $directory; ?>/img/postit012.png" class="postit p012" />
        </div>       
+        <div class="col-md-4 col-lg-4 mapa">          
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.5177471952143!2d-49.25412949999997!3d-25.42094849999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce439e6a725f7%3A0x35b704bd6d2b5709!2sR.+Conselheiro+Carr%C3%A3o%2C+410+-+Juveve%2C+Matriz%2C+Curitiba+-+PR%2C+80040-130!5e0!3m2!1spt-BR!2sbr!4v1414974798909" width="100%" height="250" frameborder="0" style="border:0"></iframe>
+       </div>     
       </div>
 
 			
@@ -307,7 +303,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="<?php print base_path() . path_to_theme() .'/' ?>/js/bootstrap.js" type="text/javascript"></script>
 <script src="<?php print base_path() . path_to_theme() .'/' ?>/js/jquery.nicescroll.min.js" type="text/javascript" ></script>
-<script src="<?php print base_path() . path_to_theme() .'/' ?>/js/jquery.parallax-1.1.3.js" type="text/javascript" ></script>
+<script src="<?php print base_path() . path_to_theme() .'/' ?>/js/jquery.parallax-1.1.3.j" type="text/javascript" ></script>
 <script src="<?php print base_path() . path_to_theme() .'/' ?>/js/jquery.localscroll-1.2.7-min.js" type="text/javascript" ></script>
 <script src="<?php print base_path() . path_to_theme() .'/' ?>/js/jquery.scrollTo-1.4.6-min.js" type="text/javascript" ></script>
 

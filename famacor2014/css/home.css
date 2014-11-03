@@ -19,11 +19,12 @@
 
 .front .container{overflow: hidden;}
 
+
 /****************** NAVIGATION STYLES *************************/
 
 #menu-principal{		
 	text-align: center;	
-	float: none;
+	float: none;	
 }
 
 #menu-principal li{	
@@ -31,16 +32,21 @@
 	float: none;
 }
 
-
-
-.front #topnav{	
-	background: transparent url(../img/overlay.png);
+.front #topnav{		
+	background: #0094d9;
 	text-align: center;
 	border-bottom: none;
 	z-index: 1;	
+	box-shadow: 0 5px 10px #2461a0;
 }
 
-.front #topnav a{color: #fff;}
+.front #topnav a{
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;	
+	font-weight: 800;
+	font-size: 21px;
+}
 .front #topnav a:hover{background: #0e4089;}
 
 
@@ -85,7 +91,12 @@
 	display: inline-block;
 }
 
-.front #topo .logo{margin-bottom: 80px;}
+.front #topo .logo{
+	margin-bottom: 80px; 
+	width: 100%;
+	background: #fff;
+	padding: 25px 0;
+}
 
 .front #topo .seta{margin-bottom: 40px;}
 
@@ -265,7 +276,11 @@
 	color: #fff;
 } 
 
-.front #Section-3 ul{
+.front #Section-3 .container{min-height: 650px;}
+
+.front #Section-3 .img-pesquisa{margin-top: 50px;}
+
+/*.front #Section-3 ul{
 	list-style-type: none;
 	padding: 0;
 	margin: 50px 0 0 0;
@@ -275,7 +290,24 @@
 	padding: 10px 0 10px 50px;
 	margin-bottom: 25px;
 	background: transparent url(../img/marcador1.png) center left no-repeat;	
+}*/
+
+.front #Section-3 .postit.p001{
+	position: absolute;
+	top: 20px; 
+	left: 250px;
 }
+.front #Section-3 .postit.p002{
+	position: absolute;
+	top: -50px; 
+	left: -100px;
+}
+.front #Section-3 .postit.p003{
+	position: absolute;
+	top: 220px; 
+	left: 0;
+}
+
 
 /*--- BLOCO 4 ---------------------------------------------------------------------------------------------*/
 .front #Section-4{
@@ -284,7 +316,9 @@
 
 .front #Section-4 .page-header{height: 80px;}
 
-.front #Section-4 ul{
+.front #Section-4 .container{min-height: 650px;}
+
+/*.front #Section-4 ul{
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
@@ -294,7 +328,25 @@
 	padding: 50px 0;	
 	text-align: center;
 	background: transparent url(../img/circulo-geral.png) center center no-repeat;
+}*/
+.front #Section-4 .img-sede{margin-top: 40px;}
+
+.front #Section-4 .postit.p004{
+	position: absolute;
+	top: 0; 
+	left: 200px;
 }
+.front #Section-4 .postit.p005{
+	position: absolute;
+	top: 150px; 
+	left: -100px;
+}
+.front #Section-4 .postit.p006{
+	position: absolute;
+	top: 275px; 
+	left: 180px;
+}
+
 
 
 /*--- BLOCO 5 ---------------------------------------------------------------------------------------------*/
@@ -303,9 +355,11 @@
 	color: #fff;
 } 
 
+.front #Section-5 .container{height: 900px;}
+
 .front #Section-5 .page-header{height: 90px;}
 
-.front #Section-5 img{margin-top: 50px}
+.front #Section-5 .img-clientes{margin-top: 50px}
 
 .front #Section-5 ul{
 	list-style-type: none;
@@ -319,10 +373,31 @@
 	background: transparent url(../img/marcador1.png) center left no-repeat;	
 }
 
+
+.front #Section-5 .postit.p007{
+	position: absolute;
+	top: 480px; 
+	left: -350px;
+}
+.front #Section-5 .postit.p008{
+	position: absolute;
+	top: 480px; 
+	left: -50px;
+}
+.front #Section-5 .postit.p009{
+	position: absolute;
+	top: 480px; 
+	left: 250px;
+}
+
+
 /*--- BLOCO 6 ---------------------------------------------------------------------------------------------*/
 .front #Section-6{
 	background:#fafafa url(../img/nuvem0.png) -100px 50px no-repeat;
+	text-align: center;
 } 
+
+
 
 
 /*--- RODAPE ---------------------------------------------------------------------------------------------*/
@@ -343,3 +418,9 @@
 	margin-bottom: 15px;
 }
 
+.front footer form label{color: #333;}
+
+.front footer form input[type="text"],
+.front footer form input[type="email"]{width: 100%;}
+
+.front footer .postit{text-align: center;}
