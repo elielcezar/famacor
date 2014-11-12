@@ -16,17 +16,10 @@ body{
 header{	
 	float: left;
 	width: 100%;
-	padding: 50px 0;
-	margin: 0 0 50px 0;
-	border-bottom: 5px solid #9ac2f4;
-	background: #eaeef1 url(../img/bg_geral.jpg) top right no-repeat !important;	
+	padding: 25px 0;
+	margin: 0;
+	border-bottom: 3px solid #9ac2f4;	
 }    
-/*header .wrapper{
-	float: left;
-	width: 100%;
-	padding: 20px;
-	background: #fff;
-}*/
 header a{	display: inline-block;	}
 
 header .col-sm-8{padding-right: 0; margin-right: 0}
@@ -54,12 +47,32 @@ header .menu-principal li{
 	border: 1px solid #fff;
 }
 
-header .menu-principal li:hover{background: #fff;}
+header .menu-principal li:hover{background: #4c71be;}
 
 header .menu-principal li a{
 	color: #1f587d !important;
 	font-weight: 600;
 	padding: 7px 15px;
+}
+header .menu-principal li:hover a{color: #fff !important;}
+
+/*--- TITULO PAGINAS ----------------------------------------------------------*/
+
+.titulo-pagina{		
+	float: left;
+	width: 100%;
+	color: #fff !important;	
+	padding-bottom: 20px;
+	padding: 30px 0 35px 0;
+	border-bottom: 2px solid #fff;		
+	background:#1a4996 url(../img/nuvem1.png) 600px -100px no-repeat;
+}
+
+.titulo-pagina h1{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;	
+	font-weight: 800;	
+	font-size: 3em;
 }
 
 
@@ -68,6 +81,8 @@ header .menu-principal li a{
 	float: left;
 	width: 100%;			
 	position: relative;
+	padding-top: 50px;
+	background: transparent url(../img/bg_principal.png) top center repeat-x;
 }
 
 #principal img.img-responsive{margin: auto;}
@@ -79,14 +94,9 @@ header .menu-principal li a{
 	font-size: 14px;
 	margin: 20px 0;
 }
-#conteudo a:hover{
-	background: #3a99d3;
-	color: #fff;
-	text-decoration: none;
-}
+#conteudo a:hover{color: #15488a;}
 
 /* formularios */
-
 form input[type="text"],
 form textarea,
 form select,
@@ -165,11 +175,10 @@ form input[type="submit"]:hover{
 
 /*--- BLOG -------------------------------------------------------------------------*/
 
-.page-blog h1#page-title{display: none;}
-
 .page-blog .view-blog .views-row{
-	margin-bottom: 50px;		
-	padding-bottom: 15px;
+	margin-bottom: 25px;		
+	padding: 15px 0;
+	border-radius: 5px;
 }
 
 .page-blog .view-blog .views-row:hover{	
@@ -177,17 +186,19 @@ form input[type="submit"]:hover{
 	background: #f2f7ff;
 }
 
-.page-blog .view-blog .views-field-title{padding: 5px 10px 0 10px;}
-.page-blog .views-field-title a{
-	font-size: 2.6em;	
+.page-blog .titulo-post{width: 100%;}
+.page-blog .titulo-post a{
+	font-size: 2.4em;	
 	font-family: 'Open Sans', sans-serif;	
 	font-weight: 800;	
 	letter-spacing: -1px;	
 }
 
-.page-blog .view-blog .views-field-created{padding: 0 10px;}
-
-.page-blog .view-blog .views-field-field-chamada{padding: 5px 10px;}
+.page-blog .view-blog .data-post{
+	width: 100%;
+	padding-bottom: 10px;
+}
+.page-blog .view-blog .chamada-post{width: 100%;}
 
 /*--- LISTA DE NOTICIAS - GERAL ------------------------------------------------------------*/
 /*.page-noticias h1.title{
@@ -240,7 +251,7 @@ form input[type="submit"]:hover{
 	font-weight: 400;
 }*/
 /*--- NOTICIA INDIVIDUAL -----------------------------------------------------------*/
-.node-type-article h1.title{display: none;}
+/*.node-type-article h1.title{display: none;}*/
 .node-type-article .view-topo-noticia .views-field-created,
 .node-type-article .view-topo-noticia .views-field-changed{	
 	font-size: 11px;
@@ -387,9 +398,7 @@ form input[type="submit"]:hover{
 	border-bottom: 1px dotted #666;
 }*/
 /*--- SIDEBAR ----------------------------------------------------------------------*/
-#sidebar{
-	/*border-left: 3px solid #3a99d3;*/
-}
+
 #sidebar .block{
 	background: #f5f8ff;	
 	float: left;

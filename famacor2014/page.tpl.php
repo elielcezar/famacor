@@ -50,10 +50,20 @@
 
 </header><!-- PAGE-HEADER-->
 
-<!--div class="nuvens2"><img src="<?php echo $directory; ?>/img/nuvens.png" class="img-responsive" /></div-->
+<?php if (($title)&&(!$is_front)): ?>
+		<div class="titulo-pagina">
+			<div class="container">
+				<div id="conteudo" class="col-sm-12">
+					<h1 class="title" id="page-title"><?php print $title; ?></h1>          
+          		</div>
+          	</div>
+      	</div>
+     <?php endif; ?>
 
 <section id="principal">
+
 	<div class="container">
+		
 		<div class="row">
 
 			<div id="conteudo" class="col-sm-9">								
@@ -68,11 +78,7 @@
 		              <?php print render($tabs); ?>
 		            </div>
 		          <?php endif; ?>      		    
-		          <?php if (($title)&&(!$is_front)): ?>
-		            <h1 class="title" id="page-title">
-		              <?php print $title; ?>
-		            </h1>
-		          <?php endif; ?>		          
+		          
 		          <?php print render($page['content']); ?>		      	
 	        </div> <!-- conteudo -->
 
