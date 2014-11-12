@@ -344,6 +344,27 @@ form input[type="submit"]:hover{
 	.node-type-article .view-autor-noticia .twitter a{background: transparent url(../img/social_icons.png) -30px 0 no-repeat;}
 	.node-type-article .view-autor-noticia .soundcloud a{background: transparent url(../img/social_icons.png) -89px 0 no-repeat;}
 
+/*--- CONTATO --------------------------------------------------------------------------------------*/
+
+.page-node-29 #principal .panel-col-center{	text-align: center;}
+
+.page-node-29 #principal form input[type="text"],
+.page-node-29 #principal form input[type="email"]{width: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* comentarios */
 /*.node-type-article .pane-comentarios-noticia{
 	float: left;
@@ -416,9 +437,6 @@ form input[type="submit"]:hover{
 	color: #3a99d3;
 }
 /* busca */
-#sidebar .block-custom-search-blocks{	
-	
-}
 #sidebar .block-custom-search-blocks *{margin: 0;}
 #sidebar .custom-search-box{	
 	padding: 5px;
@@ -435,6 +453,8 @@ form input[type="submit"]:hover{
 	display: block;	
 	border-bottom: 1px dotted #3a99d3;
 }
+
+
 /*--- RODAPE -------------------------------------------------------------------*/
 footer{	
 	border-top: 1px solid #ccc;

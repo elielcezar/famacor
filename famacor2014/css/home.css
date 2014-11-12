@@ -115,6 +115,7 @@
 	background:#fafafa url(../img/nuvem1.png) 700px 70px no-repeat;
 	padding-top: 120px;	
 	color: #888;
+	text-align: center;
 }
 
 .front #Section-1 .wrapper{	
@@ -134,27 +135,35 @@
 	}
 	.front #Section-1 .line.open{height: 400px;}
 
-.front #Section-1 .row.estados{	
-	margin: 50px 0;
-}
-.front #Section-1 .row .circulo{
-	text-align: center; 	
-}
-.front #Section-1 .row .circulo img{display: inline-block;}
-
 .front #Section-1 .fundacao .conteudo{
-	text-align: right;	
-	margin-top: 30px;
+	margin: 30px 0 0 0; 
+	padding: 0;
+}
+.front #Section-1 .fundacao .conteudo p{	
+	max-width: 350px;
+	float: right;
+	display: block;
 }
 
-.front #Section-1 .estados .conteudo{	
-	margin-top: 12px;
-}
+.front #Section-1 .row.estados{	margin: 50px 0;}
+.front #Section-1 .estados .conteudo{margin-top: 12px;}
 
 .front #Section-1 .qualificacao .conteudo{
-	text-align: right;	
 	margin-top: 30px;
+	padding: 0;
 }
+.front #Section-1 .qualificacao .conteudo p{	
+	max-width: 300px;
+	float: right;	
+	display: block;
+}
+.front #Section-1 .row .circulo{
+	text-align: center; 
+	padding: 0; 
+	margin: 0;
+	/*max-width: 125px;*/
+}
+.front #Section-1 .row .circulo img{display: inline-block;}
 
 
 /*--- BLOCO 2 ---------------------------------------------------------------------------------------------*/
@@ -354,39 +363,35 @@
 	background:#3a99d3 url(../img/nuvem1.png) 700px 50px no-repeat;	
 	color: #fff;
 } 
-
-.front #Section-5 .container{height: 900px;}
+.front #Section-5 .container{height: 800px;}
 
 .front #Section-5 .page-header{height: 90px;}
 
-.front #Section-5 .img-clientes{margin-top: 50px}
+/*.front #Section-5 .img-clientes{margin-top: 2px}*/
 
 .front #Section-5 ul{
 	list-style-type: none;
-	padding: 0;
+	padding: 50px 0 0 0;
 	margin: 0;
 }
-
 .front #Section-5 ul li{
 	padding: 10px 0 10px 50px;
-	margin-bottom: 15px;
+	margin-bottom: 30px;
 	background: transparent url(../img/marcador1.png) center left no-repeat;	
 }
-
-
 .front #Section-5 .postit.p007{
 	position: absolute;
-	top: 480px; 
+	top: 400px; 
 	left: -350px;
 }
 .front #Section-5 .postit.p008{
 	position: absolute;
-	top: 480px; 
+	top: 400px; 
 	left: -50px;
 }
 .front #Section-5 .postit.p009{
 	position: absolute;
-	top: 480px; 
+	top: 400px; 
 	left: 250px;
 }
 

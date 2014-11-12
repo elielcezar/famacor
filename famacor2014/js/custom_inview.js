@@ -289,13 +289,21 @@ if(janela > 767){
        
         $('#Section-5 li.balcao').one('inview', function (event, isInView) {
             if (isInView) {        
+              $(this).addClass('animated fadeInRight').css('opacity','1');   
+            } else{
+              $(this).removeClass('animated fadeInRight').css('opacity','0');   
+            }
+        });        
+
+        $('#Section-5 li.apolices').one('inview', function (event, isInView) {
+            if (isInView) {        
               $(this).addClass('animated fadeInRight delay2').css('opacity','1');   
             } else{
               $(this).removeClass('animated fadeInRight delay2').css('opacity','0');   
             }
         }); 
 
-        $('#Section-5 li.indicacao').one('inview', function (event, isInView) {
+        $('#Section-5 li.carteirinha').one('inview', function (event, isInView) {
             if (isInView) {        
               $(this).addClass('animated fadeInRight delay4').css('opacity','1');   
             } else{
@@ -303,35 +311,27 @@ if(janela > 767){
             }
         }); 
 
-        $('#Section-5 li.fidelidade').one('inview', function (event, isInView) {
+         $('#Section-5 .p007').one('inview', function (event, isInView) {
             if (isInView) {        
-              $(this).addClass('animated fadeInRight delay6').css('opacity','1');   
+              $(this).addClass('animated bounceIn delay8').css('opacity','1');   
             } else{
-              $(this).removeClass('animated fadeInRight delay6').css('opacity','0');   
+              $(this).removeClass('animated bounceIn delay8').css('opacity','0');   
             }
         }); 
 
-         $('#Section-5 li.autoclube').one('inview', function (event, isInView) {
+         $('#Section-5 .p008').one('inview', function (event, isInView) {
             if (isInView) {        
-              $(this).addClass('animated fadeInRight delay8').css('opacity','1');   
+              $(this).addClass('animated bounceIn delay10').css('opacity','1');   
             } else{
-              $(this).removeClass('animated fadeInRight delay8').css('opacity','0');   
+              $(this).removeClass('animated bounceIn delay10').css('opacity','0');   
             }
         }); 
 
-        $('#Section-5 li.apolices').one('inview', function (event, isInView) {
+         $('#Section-5 .p009').one('inview', function (event, isInView) {
             if (isInView) {        
-              $(this).addClass('animated fadeInRight delay10').css('opacity','1');   
+              $(this).addClass('animated bounceIn delay12').css('opacity','1');   
             } else{
-              $(this).removeClass('animated fadeInRight delay10').css('opacity','0');   
-            }
-        }); 
-
-        $('#Section-5 li.carteirinha').one('inview', function (event, isInView) {
-            if (isInView) {        
-              $(this).addClass('animated fadeInRight delay12').css('opacity','1');   
-            } else{
-              $(this).removeClass('animated fadeInRight delay12').css('opacity','0');   
+              $(this).removeClass('animated bounceIn delay12').css('opacity','0');   
             }
         }); 
        

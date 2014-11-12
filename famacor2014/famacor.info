@@ -13,6 +13,8 @@ stylesheets[all][] = css/bootstrap.css
 stylesheets[all][] = css/bootstrap-theme.css
 stylesheets[all][] = css/geral.css
 
+plugins[panels][layouts] = layouts
+
 project = "drupal"
 datestamp = "1328134560"
 

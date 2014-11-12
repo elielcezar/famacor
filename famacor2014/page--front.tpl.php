@@ -30,7 +30,7 @@
       <li><a data-toggle="pill" href="#Section-4">Section-4</a></li>
       <li><a data-toggle="pill" href="#Section-5">Section-5</a></li> 
       <li><a data-toggle="pill" href="#Section-6">Section-6</a></li>       
-      <li><a data-toggle="pill" href="#foot-sec">Footer</a></li>
+      <li><a data-toggle="pill" href="#footer">Footer</a></li>
     </ul>  
 
 	</div>	
@@ -214,14 +214,10 @@
         </div>
        <div class="col-sm-7">          
           <ul class="seguros">
-            <li class="balcao">Não temos “balcão de vendas” como bancos e concessionárias. Nosso compromisso é com nossos clientes.</li>
-            <li class="indicacao">99% dos negócios novos são oriundos de indicações dos nossos clientes. Nossa propaganda é de “boca em boca”.</li>
-            <li class="fidelidade">Nosso Programa de Fidelidade consiste em recompensar com desconto extra estes clientes.</li>            
-            <li class="autoclube">Auto Clube Famacor - Benefícios para você!</li>            
+            <li class="balcao">Não temos “balcão de vendas” como bancos e concessionárias. Nosso compromisso é com nossos clientes.</li>                                    
             <li class="apolices">Todas as apólices são enviadas para a Famacor. Após minuciosa conferência entregamos para os nossos clientes em um Kit exclusivo.</li>
             <li class="carteirinha">Todos nossos clientes recebem junto com a carteirinha da seguradora o Guia Rápido Famacor de procedimentos em caso de sinistro e assistência 24h. </li>
           </ul>
-
           <img src="<?php echo $directory; ?>/img/postit007.png" class="postit p007" />
          <img src="<?php echo $directory; ?>/img/postit008.png" class="postit p008" />
          <a href="http://ecwd.net/famacor/auto-clube"><img src="<?php echo $directory; ?>/img/postit009.png" class="postit p009" /></a>
@@ -264,7 +260,7 @@
  
       
 <!-- FOOTER -->
-    <footer>
+    <footer id="footer">
 	
   
 		<div class="container">	
