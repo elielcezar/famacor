@@ -327,17 +327,6 @@
 
 .front #Section-4 .container{min-height: 650px;}
 
-/*.front #Section-4 ul{
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-}
-
-.front #Section-4 ul li{
-	padding: 50px 0;	
-	text-align: center;
-	background: transparent url(../img/circulo-geral.png) center center no-repeat;
-}*/
 .front #Section-4 .img-sede{margin-top: 40px;}
 
 .front #Section-4 .postit.p004{
@@ -367,7 +356,6 @@
 
 .front #Section-5 .page-header{height: 90px;}
 
-/*.front #Section-5 .img-clientes{margin-top: 2px}*/
 
 .front #Section-5 ul{
 	list-style-type: none;
@@ -379,6 +367,14 @@
 	margin-bottom: 30px;
 	background: transparent url(../img/marcador1.png) center left no-repeat;	
 }
+
+.front #Section-5 ul li a{
+	font-weight: bold; 
+	text-decoration: underline; 
+	color: #fff;
+	text-transform: uppercase;
+}
+
 .front #Section-5 .postit.p007{
 	position: absolute;
 	top: 400px; 

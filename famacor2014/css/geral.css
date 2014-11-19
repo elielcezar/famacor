@@ -121,6 +121,18 @@ form input[type="submit"]:hover{
 	background: #163d8e;	
 }
 
+/* formularios dentro de paginas */
+
+.page-node #principal .content .node-webform{
+	max-width: 500px;
+	margin: auto !important;
+}
+.page-node #principal .content .node-webform h2{display: none}
+.page-node #principal .content .node-webform p br{display: none}
+.page-node #principal .content .node-webform .form-submit {padding: 7px 15px;}
+
+
+
 /* animacoes */
 .delay4{
 	animation-delay: .4s;
@@ -346,10 +358,9 @@ form input[type="submit"]:hover{
 
 /*--- CONTATO --------------------------------------------------------------------------------------*/
 
-.page-node-29 #principal .panel-col-center{	text-align: center;}
-
-.page-node-29 #principal form input[type="text"],
-.page-node-29 #principal form input[type="email"]{width: 100%;}
+body.contato #principal .panel-col-center{text-align: center;}
+body.contato #principal form input[type="text"],
+body.contato #principal form input[type="email"]{width: 100%;}
 
 
 
@@ -455,6 +466,13 @@ form input[type="submit"]:hover{
 }
 
 
+/* facebook */
+#sidebar #block-block-3{
+	padding: 0;
+	background: #fff;
+	border-bottom: none;
+}
+
 /*--- RODAPE -------------------------------------------------------------------*/
 footer{	
 	border-top: 1px solid #ccc;
@@ -466,10 +484,11 @@ footer{
 	font-size: 11px;
 	line-height: 18px;
 }
-footer a{
-	color: #fff;
-	font-weight: bold;	
-}
+footer a{font-weight: bold;	}
+
+
+
+
 /***************************************************************************************************/
 @media (min-width: 768px){	
 	.page-home .principal .conteudo .view-noticia-home2 .views-row{	min-height: 285px;}

@@ -40,6 +40,24 @@
 
 </head>
 <body data-spy="scroll" data-target=".navbar" class="<?php print $classes; ?>" <?php print $attributes;?>>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '488099737997233',
+      xfbml      : true,
+      version    : 'v2.2'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/pt_BR/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+	
 <?php print $page_top; ?>
 <?php print $page; ?>
 <?php print $page_bottom; ?>

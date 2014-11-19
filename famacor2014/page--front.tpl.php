@@ -214,13 +214,13 @@
         </div>
        <div class="col-sm-7">          
           <ul class="seguros">
-            <li class="balcao">Não temos “balcão de vendas” como bancos e concessionárias. Nosso compromisso é com nossos clientes.</li>                                    
-            <li class="apolices">Todas as apólices são enviadas para a Famacor. Após minuciosa conferência entregamos para os nossos clientes em um Kit exclusivo.</li>
-            <li class="carteirinha">Todos nossos clientes recebem junto com a carteirinha da seguradora o Guia Rápido Famacor de procedimentos em caso de sinistro e assistência 24h. </li>
+            <li class="balcao">Não temos “balcão de vendas” como bancos e concessionárias. <br /> Nosso compromisso é com nossos clientes.</li>                                    
+            <li class="apolices">Todas as apólices são enviadas para a Famacor. Após minuciosa <br /> conferência entregamos para os nossos clientes em um Kit exclusivo.</li>
+            <li class="carteirinha">Todos nossos clientes recebem junto com a carteirinha da seguradora <br /> o <a href="http://famacorseguros.com.br/sinistros">Guia Rápido Famacor</a> de procedimentos em caso de sinistro e assistência 24h. </li>
           </ul>
           <img src="<?php echo $directory; ?>/img/postit007.png" class="postit p007" />
          <img src="<?php echo $directory; ?>/img/postit008.png" class="postit p008" />
-         <a href="http://ecwd.net/famacor/auto-clube"><img src="<?php echo $directory; ?>/img/postit009.png" class="postit p009" /></a>
+         <a href="http://famacorseguros.com.br/auto-clube"><img src="<?php echo $directory; ?>/img/postit009.png" class="postit p009" /></a>
         </div>       
       </div>
 
@@ -268,7 +268,7 @@
        <div class="row">
        <div class="col-md-4 col-lg-4 form-contato">
           <?php
-             $block = module_invoke('webform', 'block_view', 'client-block-29');
+             $block = module_invoke('webform', 'block_view', 'client-block-4');
              print render($block['content']);
           ?>
         </div>
